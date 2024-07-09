@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #00B074;
+    --primary: #f03ac8;
     --secondary: #2B9BFF;
     --light: #EFFDF5;
     --dark: #2B3940;
@@ -39,7 +39,8 @@
 
 .btn.btn-primary,
 .btn.btn-secondary {
-    color: #FFFFFF;
+    color: rgb(87, 5, 5);
+    background-color: #f03ac8;
 }
 
 .btn-square {
@@ -99,7 +100,16 @@
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
     color: var(--primary);
+
 }
+
+.logo{
+    width: 130px;
+    height: 55px;
+    margin-top: 20px;
+    
+}
+
 
 @media (max-width: 991.98px) {
     .navbar-dark .navbar-nav .nav-link,
@@ -391,3 +401,71 @@
     padding-right: 0;
     border-right: none;
 }
+
+    
+
+    /**{
+    box-sizing: border-box;
+    padding:0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+header{
+    position: sticky;
+}
+
+    
+
+
+#logo{
+    width: 200px;
+    margin-top: 20px;
+    
+}
+
+.top-header{
+    width: 400px;
+    height: 110px;
+    margin-left:380px ;
+
+    
+
+}
+
+.nav-bar{
+    background-color: #fff;
+    color:#fa0fc7;
+}
+
+nav ul li{
+    display: inline-block;
+ 
+
+}
+
+.nav-ul{
+    float: right;
+    margin-top: 70px;
+    margin-right: 45px;
+}
+
+
+nav li a{
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 100px;
+  padding: 7px 10px;
+  color: rgb(209, 13, 62);
+}
+
+.nav-li a:hover{
+    text-decoration-color: #fa0fc7;
+    color:rgb(209, 13, 62);
+    border: solid;
+    border-radius: 14px;
+    padding: 5px;
+  }
+  
+/*
